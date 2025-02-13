@@ -67,7 +67,7 @@ For this project, I used the following tools and technologies:
 After training your model, the results will be saved in the `models/` directory. You can evaluate the performance of your model using the test dataset and the provided `sample_submission.csv`.
 
 ## 📜 License
-This project is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
 
 ## 🙏 Acknowledgements
 A big thank you to Kaggle for providing the platform and the dataset for this competition. Let's make chatbots more human-friendly!
