@@ -66,6 +66,28 @@ For this project, I used the following tools and technologies:
 ## 🎯 Results
 After training your model, the results will be saved in the `models/` directory. You can evaluate the performance of your model using the test dataset and the provided `sample_submission.csv`.
 
+## 🌟 Improvements
+To further enhance this project, you can explore the following:
+
+- **Experiment with Different Models**:
+  - Fine-tune other transformer models such as RoBERTa, GPT-2, or T5.
+  - Try traditional machine learning models like Support Vector Machines (SVM) or Random Forest.
+  - Experiment with ensemble methods to combine predictions from multiple models.
+
+- **Optimize Hyperparameters**:
+  - Use techniques like grid search or Bayesian optimization to find the best hyperparameters for your models.
+
+- **Feature Engineering**:
+  - Explore additional text preprocessing techniques and feature engineering methods to improve model performance.
+  - Use domain-specific knowledge to create new features from the text data.
+
+- **Data Augmentation**:
+  - Apply data augmentation techniques to increase the diversity and size of the training dataset.
+
+- **Model Interpretability**:
+  - Implement methods to interpret and explain the model's predictions, such as SHAP or LIME.
+
+
 ## 📜 License
 This project is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
 
