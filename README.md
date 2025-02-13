@@ -1,6 +1,6 @@
 # 🌟 LLM Classification Finetuning Project 🌟
 
-![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-brightgreen) ![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange)
+![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-brightgreen) ![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange) ![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1-red) ![Sklearn](https://img.shields.io/badge/Sklearn-0.24.2-yellow) ![Transformers](https://img.shields.io/badge/Transformers-4.5.1-blue)
 
 ## 🏆 Overview
 Welcome to the LLM Classification Finetuning Project! This project is part of an exciting Kaggle competition where we predict which responses users will prefer in a head-to-head battle between chatbots powered by large language models (LLMs).
@@ -20,6 +20,8 @@ The competition dataset consists of user interactions from the ChatBot Arena, wh
 - `test.csv`: Test data for predictions.
 - `sample_submission.csv`: Sample submission file in the correct format.
 
+Note: The dataset contains text that may be considered profane, vulgar, or offensive.
+
 ## 🛠 Tools & Technologies
 For this project, I used the following tools and technologies:
 - **Python 3.8+**: The backbone of our project.
@@ -27,8 +29,39 @@ For this project, I used the following tools and technologies:
 - **Transformers (Hugging Face)**: To leverage state-of-the-art LLMs for text generation and classification.
 - **Pandas**: For data manipulation and analysis.
 - **Scikit-learn**: For preprocessing and evaluation.
+- **NLTK**: For natural language processing tasks.
 - **Jupyter Notebook**: For interactive coding and exploration.
 
+## 🔍 Workflow
+
+1. **Data Preprocessing**:
+   - Cleaned the text data using NLTK by tokenizing, removing stop words, and lemmatizing.
+   - Combined responses for TF-IDF vectorization.
+
+2. **Model 1: Logistic Regression**:
+   - Vectorized the text data using TF-IDF.
+   - Trained a Logistic Regression model to predict user preferences.
+   - Evaluated the model using log loss.
+
+3. **Model 2: BERT (Bidirectional Encoder Representations from Transformers)**:
+   - Used the `transformers` library to load a pre-trained BERT model.
+   - Tokenized the text data and created custom datasets.
+   - Fine-tuned the BERT model using PyTorch.
+   - Evaluated the model using the Trainer API from the `transformers` library.
+
+## 📂 Project Structure
+```
+- LLM_Classification_Finetuning
+  - data/
+    - train.csv
+    - test.csv
+    - sample_submission.csv
+  - notebooks/
+    - LLMS_Classification_Finetuning.ipynb
+  - models/
+    - model.pth
+  - README.md
+```
 
 ## 🎯 Results
 After training your model, the results will be saved in the `models/` directory. You can evaluate the performance of your model using the test dataset and the provided `sample_submission.csv`.
