@@ -61,7 +61,6 @@ For this project, I used the following tools and technologies:
   - models/
     - saved_model.pth
   - README.md
-  - requirements.txt
 ```
 
 ## 🎯 Results
