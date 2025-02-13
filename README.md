@@ -29,32 +29,6 @@ For this project, I used the following tools and technologies:
 - **Scikit-learn**: For preprocessing and evaluation.
 - **Jupyter Notebook**: For interactive coding and exploration.
 
-## 📂 Project Structure
-```
-- LLM_Classification_Finetuning
-  - data/
-    - train.csv
-    - test.csv
-    - sample_submission.csv
-  - notebooks/
-    - LLMs_Practice.ipynb
-  - models/
-    - saved_model.pth
-  - README.md
-  - requirements.txt
-```
-
-## 🚀 Installation
-To install the necessary dependencies, run the following command:
-```bash
-pip install -r requirements.txt
-```
-
-## 🖥 Usage
-To run the project, use the following command:
-```bash
-python LLMs_Practice.ipynb
-```
 
 ## 🎯 Results
 After training your model, the results will be saved in the `models/` directory. You can evaluate the performance of your model using the test dataset and the provided `sample_submission.csv`.
