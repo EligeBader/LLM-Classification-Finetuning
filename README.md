@@ -75,17 +75,13 @@ To further enhance this project, I can explore the following:
   - Experiment with ensemble methods to combine predictions from multiple models.
 
 - **Optimize Hyperparameters**:
-  - Use techniques like grid search or Bayesian optimization to find the best hyperparameters for my models.
+  - Use techniques like grid search to find the best hyperparameters for my models.
 
 - **Feature Engineering**:
   - Explore additional text preprocessing techniques and feature engineering methods to improve model performance.
-  - Use domain-specific knowledge to create new features from the text data.
 
 - **Data Augmentation**:
   - Apply data augmentation techniques to increase the diversity and size of the training dataset.
-
-- **Model Interpretability**:
-  - Implement methods to interpret and explain the model's predictions, such as SHAP or LIME.
 
 ## 📜 License
 This project is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
