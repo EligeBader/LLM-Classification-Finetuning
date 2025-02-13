@@ -57,9 +57,9 @@ For this project, I used the following tools and technologies:
     - test.csv
     - sample_submission.csv
   - notebooks/
-    - LLMs_Practice.ipynb
+    - LLMS_Classification_Finetuning.ipynb
   - models/
-    - saved_model.pth
+    - model_bert.pth
   - README.md
 ```
 
