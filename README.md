@@ -88,7 +88,7 @@ To further enhance this project, I can explore the following:
   - Implement methods to interpret and explain the model's predictions, such as SHAP or LIME.
 
 ## 📜 License
-This project is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
 
 ## 🙏 Acknowledgements
 A big thank you to Kaggle for providing the platform and the dataset for this competition. Let's make chatbots more human-friendly!
